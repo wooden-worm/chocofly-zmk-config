@@ -1,0 +1,2 @@
+config SHIELD_CHOCOFLY
+    def_bool $(shields_list_contains,chocofly)

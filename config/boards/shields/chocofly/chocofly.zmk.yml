@@ -1,0 +1,9 @@
+file_format: "1"
+id: chocofly
+name: Chocofly
+type: shield
+url: https://github.com/vlkv/chocofly/
+requires: [pro_micro]
+features:
+  - keys
+  - encoder
