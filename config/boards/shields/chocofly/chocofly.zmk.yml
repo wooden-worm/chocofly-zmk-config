@@ -6,4 +6,3 @@ url: https://github.com/vlkv/chocofly/
 requires: [pro_micro]
 features:
   - keys
-  - encoder
