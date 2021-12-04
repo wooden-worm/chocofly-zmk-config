@@ -49,4 +49,16 @@ RC(6,0) RC(7,0) RC(6,1) RC(7,1) RC(6,2) RC(7,2) RC(3,3) RC(2,3) RC(2,4) RC(3,4) 
                                 RC(7,3) RC(6,3) RC(5,3) RC(4,3) RC(4,4) RC(5,4) RC(6,4) RC(7,4)
         >;
     };
+
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        label = "LEFT_ENCODER";
+        a-gpios = <1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        resolution = <4>;
+    };
+
+    &left_encoder {
+        status = "okay";
+    };
 };
