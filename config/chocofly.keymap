@@ -15,25 +15,25 @@
 
         l_par {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
+            key-positions = <17 29>;
             layers = <0>;
         };
 
         r_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 19>;
+            key-positions = <18 31>;
             layers = <0>;
         };
 
         l_br {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <16 15>;
+            key-positions = <16 28>;
             layers = <0>;
         };
 
         r_br {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <19 20>;
+            key-positions = <19 32>;
             layers = <0>;
         };
     };
